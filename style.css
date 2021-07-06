@@ -46,7 +46,7 @@ p{
     padding: 40px;
 }
 
-.first-image{
+#first-image{
     width: 85%;
 }
 .btn-design{
@@ -74,14 +74,14 @@ p{
     background-repeat: no-repeat;
 }
 
-.aboutme-banner{
+#aboutme-banner{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 
-.second-image{
+#second-image{
     width: 45%;
     margin-left: 30%;
     padding-bottom: 0px;
@@ -126,7 +126,11 @@ footer{
     padding-bottom: 10px;
 }
 
-.footer-part{
+#nav-sec{
+    background-color:white;
+}
+
+#footer-part{
     display: flex;
     width: 80%;
     padding: 0% 5% 0% 5%;
@@ -148,4 +152,8 @@ footer{
 .link{
     text-decoration: none;
     color: white;  
+}
+
+.disp-block{
+    display: flex;
 }
